@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <!-- Navbar con Tailwind CSS -->
+    <nav class="bg-cyan-400 p-4 shadow-md">
+        <div class="flex flex-col ml-0">
+            <div class="flex flex-col space-y-2 md:space-y-0 md:flex-row md:space-x-6">
+              <a href="index.html" class="text-black font-normal text-xl mb-2">MENU</a>
+            <button class="text-black focus:outline-none md:hidden mb-2" type="button">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                </svg>
+            </button>
+                <div class="relative group">
+                    <button class="text-black font-light hover:text-gray-700 focus:outline-none">
+                        ACTIVIDADES
+                    </button>
+                    <div class="absolute hidden group-hover:block bg-white shadow-lg mt-2 space-y-2 py-2">
+                        <a href="Actividad 0.html" class="block px-4 py-2 text-black hover:bg-gray-200">Actividad 0</a>
+                        <a href="Actividad 1.html" class="block px-4 py-2 text-black hover:bg-gray-200">Actividad 1</a>
+                        <a href="Actividad 2.html" class="block px-4 py-2 text-black hover:bg-gray-200">Actividad 2</a>
+                        <a href="Actividad 3.html" class="block px-4 py-2 text-black hover:bg-gray-200">Actividad 3</a>
+                        <hr class="border-t border-gray-300 my-2">
+                        <a href="#" class="block px-4 py-2 text-black hover:bg-gray-200">Salir</a>
+                    </div>
+                </div>
+                <div class="relative group">
+                    <button class="text-black font-light hover:text-gray-700 focus:outline-none">
+                        FORMULARIOS
+                    </button>
+                    <div class="absolute hidden group-hover:block bg-white shadow-lg mt-2 space-y-2 py-2">
+                        <a href="formulario.html" class="block px-4 py-2 text-black hover:bg-gray-200">Actividad 0</a>
+                        <a href="formulario1.html" class="block px-4 py-2 text-black hover:bg-gray-200">Actividad 1</a>
+                        <a href="formulario2.html" class="block px-4 py-2 text-black hover:bg-gray-200">Actividad 2</a>
+                        <a href="formulario3.html" class="block px-4 py-2 text-black hover:bg-gray-200">Actividad 3</a>
+                        <a href="formulario4.html" class="block px-4 py-2 text-black hover:bg-gray-200">Actividad 3</a>
+                        <hr class="border-t border-gray-300 my-2">
+                        <a href="#" class="block px-4 py-2 text-black hover:bg-gray-200">Salir</a>
+                    </div>
+                </div>
+                <div class="relative group">
+                    <button class="text-black font-light hover:text-gray-700 focus:outline-none">
+                        CARDS
+                    </button>
+                    <div class="absolute hidden group-hover:block bg-white shadow-lg mt-2 space-y-2 py-2">
+                        <a href="card1.html" class="block px-4 py-2 text-black hover:bg-gray-200">Card</a>
+                        <hr class="border-t border-gray-300 my-2">
+                        <a href="#" class="block px-4 py-2 text-black hover:bg-gray-200">Salir</a>
+                    </div>
+                </div>
+                <div class="relative group">
+                    <button class="text-black font-light hover:text-gray-700 focus:outline-none">
+                        CARRUSEL
+                    </button>
+                    <div class="absolute hidden group-hover:block bg-white shadow-lg mt-2 space-y-2 py-2">
+                        <a href="Ejerciciocarrusel.html" class="block px-4 py-2 text-black hover:bg-gray-200">Carrusel1</a>
+                        <a href="Ejercicio2.html" class="block px-4 py-2 text-black hover:bg-gray-200">Carrusel2</a>
+                        <hr class="border-t border-gray-300 my-2">
+                        <a href="#" class="block px-4 py-2 text-black hover:bg-gray-200">Salir</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="flex overflow-x-auto snap-x snap-mandatory scroll-smooth space-x-6 p-6 ml-0">
+        <div class="snap-start shrink-0">
+            <img src="img1.jfif" class="w-64 h-40 object-cover rounded" alt="Image 1" />
+        </div>
+        <div class="snap-start shrink-0">
+            <img src="img2.jfif" class="w-64 h-40 object-cover rounded" alt="Image 2" />
+        </div>
+        <div class="snap-start shrink-0">
+            <img src="img3.png" class="w-64 h-40 object-cover rounded" alt="Image 3" />
+        </div>
+        <div class="snap-start shrink-0">
+            <img src="img4.jfif" class="w-64 h-40 object-cover rounded" alt="Image 4" />
+        </div>
+        <div class="snap-start shrink-0">
+            <img src="img5.jpg" class="w-64 h-40 object-cover rounded" alt="Image 5" />
+        </div>
+    </div>
+</body>
+</html>
